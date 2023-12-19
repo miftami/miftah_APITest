@@ -1,0 +1,426 @@
+15:32:20.002 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:20.284 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+15:32:22.453 [main] INFO  com.intuit.karate - [print]  
+15:32:24.207 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:apitest/delRequest.feature
+15:32:24.244 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:24.258 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+15:32:24.969 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+15:32:25.034 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:25.047 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+15:32:25.268 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+15:32:26.372 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:apitest/getRequest.feature
+15:32:26.425 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:26.433 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+15:32:27.090 [main] INFO  com.intuit.karate - [print] {
+  "id": "546",
+  "createdAt": "2023-12-17T08:32:26.957Z"
+}
+ 
+15:32:27.266 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:apitest/postRequest.feature
+15:35:40.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:40.670 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+15:35:42.020 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+15:35:42.104 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:42.120 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+15:35:42.748 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:13:17.005 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702912396993
+22:13:19.864 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:19.974 [main] INFO  com.intuit.karate - [print] This is Delete step preparation 
+22:13:21.720 [main] INFO  com.intuit.karate - [print]  
+22:13:23.044 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:apitest/delRequest.feature
+22:13:23.102 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:23.118 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+22:13:23.701 [main] INFO  com.intuit.karate - [print] {
+  "page": 1,
+  "per_page": 6,
+  "total": 12,
+  "total_pages": 2,
+  "data": [
+    {
+      "id": 1,
+      "email": "george.bluth@reqres.in",
+      "first_name": "George",
+      "last_name": "Bluth",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "email": "janet.weaver@reqres.in",
+      "first_name": "Janet",
+      "last_name": "Weaver",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "email": "emma.wong@reqres.in",
+      "first_name": "Emma",
+      "last_name": "Wong",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "email": "eve.holt@reqres.in",
+      "first_name": "Eve",
+      "last_name": "Holt",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "email": "charles.morris@reqres.in",
+      "first_name": "Charles",
+      "last_name": "Morris",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "email": "tracey.ramos@reqres.in",
+      "first_name": "Tracey",
+      "last_name": "Ramos",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    }
+  ],
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:13:23.759 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:23.765 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+22:13:24.386 [main] INFO  com.intuit.karate - [print] {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:13:25.496 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:apitest/getRequest.feature
+22:13:25.527 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:13:25.535 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:13:26.750 [main] INFO  com.intuit.karate - [print] {
+  "id": "896",
+  "createdAt": "2023-12-18T15:13:26.559Z"
+}
+ 
+22:13:26.919 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:apitest/postRequest.feature
+22:20:32.136 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:20:32.244 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:20:37.612 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:15
+Then status 201
+status code was: 200, expected: 201, response time in milliseconds: 4734, url: https://petstore.swagger.io/v2/user, response: 
+{"code":200,"type":"unknown","message":"9223372036854775807"}
+classpath:apitest/postRequest.feature:15
+22:23:22.142 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:23:22.270 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:23:34.001 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "9223372036854775807"
+}
+ 
+22:23:34.025 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { id:'#string',createdAt:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"code":200,"type":"unknown","message":"9223372036854775807"} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"9223372036854775807"}
+  {"id":"#string","createdAt":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:25:21.436 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:25:21.518 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:25:35.409 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "9223372036854775807"
+}
+ 
+22:25:35.434 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { id:'#string',phone:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"code":200,"type":"unknown","message":"9223372036854775807"} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"9223372036854775807"}
+  {"id":"#string","phone":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:26:47.368 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:26:47.489 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:26:56.588 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "9223372036854775807"
+}
+ 
+22:26:56.613 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { code:'#string',message:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"type":"unknown"} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"9223372036854775807"}
+  {"code":"#string","message":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:30:56.140 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:56.223 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:31:01.629 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "9223372036854775807"
+}
+ 
+22:31:01.651 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { code:'#long',message:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"type":"unknown"} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"9223372036854775807"}
+  {"code":"#long","message":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:31:41.110 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:41.193 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:31:46.091 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "9223372036854775807"
+}
+ 
+22:31:46.116 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { type:'#string',message:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"code":200} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"9223372036854775807"}
+  {"type":"#string","message":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:39:06.958 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:39:07.051 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:39:14.285 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "45"
+}
+ 
+22:39:14.312 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { type:'#string',message:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"code":200} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"45"}
+  {"type":"#string","message":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:41:18.740 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:41:18.832 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:41:21.433 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "45"
+}
+ 
+22:41:21.460 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { type:'#string',message:'#double' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"code":200} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"45"}
+  {"type":"#string","message":"#double"}
+
+
+classpath:apitest/postRequest.feature:17
+22:43:27.400 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:43:27.487 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:43:30.691 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "45"
+}
+ 
+22:43:30.723 [main] ERROR com.intuit.karate - classpath:apitest/postRequest.feature:17
+And match response == { code:'#number',message:'#string' }
+match failed: EQUALS
+  $ | not equal | actual has 1 more key(s) than expected - {"type":"unknown"} (MAP:MAP)
+  {"code":200,"type":"unknown","message":"45"}
+  {"code":"#number","message":"#string"}
+
+
+classpath:apitest/postRequest.feature:17
+22:44:36.646 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:44:36.736 [main] INFO  com.intuit.karate - [print] ------- ini adalah test post 
+22:44:38.979 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "45"
+}
+ 
+22:49:27.787 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1702914567779
+22:49:29.892 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:49:29.983 [main] INFO  com.intuit.karate - [print] Delete Data 
+22:49:45.536 [main] INFO  com.intuit.karate - [print]  
+22:49:46.984 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:apitest/delRequest.feature
+22:49:47.016 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:49:47.026 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+22:49:54.678 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:14
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 7482, url: https://petstore.swagger.io/v2/user/mif4h?page=1, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:14
+22:49:54.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:49:54.713 [main] INFO  com.intuit.karate - [print] ========= Ini test Get Data ======== 
+22:49:59.357 [main] ERROR com.intuit.karate - classpath:apitest/getRequest.feature:27
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 4627, url: https://petstore.swagger.io/v2/user/mift4h, response: 
+{"code":1,"type":"error","message":"User not found"}
+classpath:apitest/getRequest.feature:27
+22:49:59.843 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (0 remaining) classpath:apitest/getRequest.feature
+22:49:59.863 [main] INFO  com.intuit.karate - karate.env system property was: null 
+22:49:59.871 [main] INFO  com.intuit.karate - [print] ==== API Automation Test With Karate ==== 
+22:50:05.358 [main] INFO  com.intuit.karate - [print] {
+  "code": 200,
+  "type": "unknown",
+  "message": "45"
+}
+ 
+22:50:05.581 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:apitest/postRequest.feature

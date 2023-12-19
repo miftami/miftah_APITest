@@ -1,0 +1,20 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "data",
+    "support"
+  ],
+
+    "id": 45,
+    "username": "mift4h",
+    "firstName": "miftakhul",
+    "lastName": "maarif",
+    "email": "maarif.miftah@gmail.com",
+    "password": "iniP@sword",
+    "phone": "0000000000",
+    "userStatus": 0
+
+}
