@@ -28,4 +28,11 @@ Feature: Test get request
 
     And print "===== Test Ambil Data Selesai ====="
     Then print response
+    # And match response.data contains { "email": '#notnull'}
+    # assert jsonschema validation
+    And match response == '#object'
+      * string jsonData = response
+    # location file JSONSchemaUtil in folder plugins
+      * def SchemaUtils = Java.type('plugins.JSONSchemaUtil')
+      * assert SchemaUtils.isValid(jsonData, jsonSchemaExpected)
    

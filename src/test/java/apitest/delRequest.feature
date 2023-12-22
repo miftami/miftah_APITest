@@ -5,7 +5,7 @@ Feature: Delete request Swagger
     And print "Delete Data"
 
   @deleteData
-  Scenario: Test Delete data in Swagger
+  Scenario: Test Delete data in Swagger Success
     When path '/user/mift4h'
     And method delete
     Then status 200
